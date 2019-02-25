@@ -1,0 +1,12 @@
+1.将2600K、2800K、3000K、3200K、3400K的能量分别放入自己的ORIGIN（.opj）文件中，并作图改横纵坐标轴。
+横坐标为每个.txt文件中的第一列数据乘以0.25再除以1000（每个文件都一样，每张图使用统一坐标轴）单位为ps；
+纵坐标为PotentialEnergy / (kcal / mol)统一这种格式
+分别有PotentialEnergy、BondEnergy、TotalEnergy、TorsionAngleEnergy、vanderWaalsEnergy四种能量，外加Number of Molecules（无单位）
+
+2.将5个温度点的Number of Molecules放置在一个同一张图中进行对比
+
+3.将3000K时的C2H2、C2H4、CH4、CO、H2、H2O六种产物的生成曲线放入一个人ORIGIN文件中并作图，
+纵坐标轴为Number of C2H2/...这种样式，无单位
+
+
+4.所有的图横坐标都一样以ps为单位，范围为0-150ps
